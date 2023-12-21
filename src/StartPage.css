@@ -1,0 +1,149 @@
+#სათაური {
+    color: #1A1A1F;
+    font-family: FiraGO;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    /* 112.5% */
+    margin-left: 89px;
+    display: inline-flex;
+}
+
+#SpacePicture {
+    width: 624px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-right: 76px;
+    margin-top: 64px;
+
+}
+
+#Beginning {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#მარკეტი {
+    color: #D6961C;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border-color: rgba(255, 184, 47, 0.08);
+    background: rgba(255, 184, 47, 0.08);
+    margin-right: 12px;
+}
+
+#აპლიკაცია {
+    color: #15C972;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border-color: rgba(6, 218, 115, 0.08);
+    background: rgba(6, 218, 115, 0.08);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#ხელოვნური_ინტელექტი {
+    color: #B71FDD;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #EEE1F7;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#UI_UX {
+    color: #DC2828;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border-color: rgba(250, 87, 87, 0.08);
+    background: rgba(250, 87, 87, 0.08);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#კვლევა {
+    color: #60BE16;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #E9EFE9;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#Figma {
+    color: #1AC7A8;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border-color: rgba(8, 210, 174, 0.08);
+    background: rgba(8, 210, 174, 0.08);
+    margin-left: 12px;
+}
+
+#Filter {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    flex-direction: row;
+    flex-shrink: calc();
+}

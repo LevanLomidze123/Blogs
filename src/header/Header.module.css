@@ -1,0 +1,38 @@
+.login {
+    color: #ffffff;
+    font-family: FiraGO;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #5D37F3;
+    margin-right: 76px;
+}
+
+.redberryLogo {
+    width: 150px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 76px;
+
+    box-sizing: border-box;
+    /* background: url("src\LOGO-02 3.jpg"), lightgray 50% / cover no-repeat; */
+}
+
+.header {
+    height: 80px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #E4E3EB;
+    background: #FFF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

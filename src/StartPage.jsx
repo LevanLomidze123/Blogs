@@ -1,22 +1,16 @@
-import './StartPage.css'
+import CategoriesFilter from './CategoriesFilter.jsx';
+import styles from './StartPage.module.css'
 
 export default function StartPage() {
     return (
         <main>
-            <div id='Beginning'>
-                <h1 id='სათაური'>ბლოგი</h1>
-                <img id='SpacePicture' src="src\Blog-1024x355 1.png" alt="Blog Picture" />
+            <div className={styles.beginning}>
+                <h1 className={styles.h1}>ბლოგი</h1>
+                <img className={styles.spacePicture} src="src\Blog-1024x355 1.png" alt="Blog Picture" />
             </div>
 
-            <nav>
-                <div id='Filter'>
-                    <button id='მარკეტი'>მარკეტი</button>
-                    <button id='აპლიკაცია'>აპლიკაცია</button>
-                    <button id='ხელოვნური_ინტელექტი'>ხელოვნური ინტელექტი</button>
-                    <button id='UI_UX'>UI/UX</button>
-                    <button id='კვლევა'>კვლევა</button>
-                    <button id='Figma'>Figma</button>
-                </div>
+            <nav className={styles.filter}>
+                <CategoriesFilter />
             </nav>
         </main>
     );

@@ -1,0 +1,37 @@
+.h1 {
+    color: #1A1A1F;
+    font-family: FiraGO;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    /* 112.5% */
+    margin-left: 89px;
+    display: inline-flex;
+}
+
+.spacePicture {
+    width: 624px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-right: 76px;
+    margin-top: 64px;
+
+}
+
+.beginning {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    flex-direction: row;
+    flex-shrink: calc();
+}

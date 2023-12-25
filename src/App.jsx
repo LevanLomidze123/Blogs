@@ -1,6 +1,7 @@
-import './App.css'
-import Header from './header/header.jsx'
+import styles from './App.module.css'
+import Header from './components/header/header.jsx'
 import StartPage from './StartPage.jsx'
+
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Blogs</title>
       </head>
-      <body>
+      <body className={styles.body}>
         <Header />
         <StartPage />
       </body>
